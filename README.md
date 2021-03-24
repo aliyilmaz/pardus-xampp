@@ -1,24 +1,32 @@
 # pardus-xampp
 
+Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı amaçlayan Bitnami XAMPP uygulamasının Pardus işletim sistemine kurulumunu konu almaktadır.
 
-### xampp çalıştırma simgesi nasıl oluşturulur?
+### Pardus'a Bitnami XAMPP nasıl kurulur?
 
-Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı amaçlayan Bitnami XAMPP uygulaması için çalıştırma simgesi oluşturmayı konu almaktadır.
+1) [Bu bağlantıyı tıklayın](https://www.apachefriends.org/tr/index.html) karşınıza gelen sayfadan **Linux için XAMPP** seçeneği seçin ve programı indirin.
 
-Dökümanın uygulandığı işletim sistemi, Pardus dağıtımıdır, diğer debian türevlerinde denenmemiştir.
+2) **Uçbirim Öykünücüsü**nü açıp programın indirildiği dizine `cd` komutu yardımıyla ulaşın.
 
-Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
+3) Ardından **Uçbirim Öykünücüsü**de `sudo chmod +x dosyaadi.run` komutunu çalıştırarak program dosyasına çalıştırma izni tanımlayın.
 
+4) Son olarak **Uçbirim Öykünücüsü**de `./dosyaadi.run` diyerek programın kurulum işlemini başlatın.
+
+---
+
+
+### XAMPP çalıştırma simgesi nasıl oluşturulur?
 
 1) **Uçbirim Öykünücüsü**nü açıp `sudo mousepad /usr/share/polkit-1/actions/xampp.policy` komutunu çalıştırın, karşınıza gelen mousepad penceresinin içine aşağıdaki kodları yapıştırarak kaydedin ve editörü kapatın.
 
+##### xampp.policy
 
 
     <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE policyconfig PUBLIC
-"-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
-"http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
-<policyconfig>
+    <!DOCTYPE policyconfig PUBLIC
+    "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+    "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+    <policyconfig>
 
     <action id="org.freedesktop.policykit.pkexec.run-xampp">
         <description>Run the Xampp Control Panel</description>
@@ -48,3 +56,5 @@ Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
     Categories=Application
     Type=Application
     Terminal=false
+
+Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
