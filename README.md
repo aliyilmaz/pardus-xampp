@@ -61,6 +61,8 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
 
 Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
 
+---
+
 ### PHP'nin Uçbirim Öykünücüsünde çalışabilmesi nasıl sağlanır ?
 
 **Uçbirim Öykünücüsü**nü açıp `sudo ln -s /opt/lampp/bin/php /usr/bin/php` komutunu çalıştırın, ardından `php -v` komutunu çalıştırarak PHP sürümünü görüntüleyerek PHP'nin sisteme tanımlandığını doğrulayın.
