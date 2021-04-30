@@ -65,10 +65,10 @@ Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
 
 ### PHP'nin Uçbirim Öykünücüsünde çalışabilmesi nasıl sağlanır ?
 
-**Uçbirim Öykünücüsü**nü açıp `sudo ln -s /opt/lampp/bin/php /usr/bin/php` komutunu çalıştırın, ardından `php -v` komutunu çalıştırarak PHP sürümünü görüntüleyerek PHP'nin sisteme tanımlandığını doğrulayın.
+**Uçbirim Öykünücüsü**nü açıp `sudo ln -s /opt/lampp/bin/php /usr/bin/php` komutunu çalıştırın, ardından `php -v` komutunu çalıştırarak PHP'nin sisteme tanımlandığını doğrulayın.
 
 ---
 
 ### Composer'ın Uçbirim Öykünücüsünde çalışabilmesi nasıl sağlanır ?
 
-**Uçbirim Öykünücüsünü**nü açıp `sudo wget -O composer-setup.php https://getcomposer.org/installer && sudo  php ./composer-setup.php --install-dir=/usr/local/bin --filename=composer` komutunu çalıştırın, ardından `composer` komutunu çalıştırarak Composer'ın komutlarını görüntüleyerek Composer'ın sisteme tanımlandığını doğrulayın.
+**Uçbirim Öykünücüsünü**nü açıp `sudo wget -O composer-setup.php https://getcomposer.org/installer && sudo  php ./composer-setup.php --install-dir=/usr/local/bin --filename=composer` komutunu çalıştırın, ardından `composer` komutunu çalıştırarak Composer'ın sisteme tanımlandığını doğrulayın.
