@@ -10,7 +10,7 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
 
 3) Ardından **Uçbirim Öykünücüsü**nde `sudo chmod +x dosyaadi.run` komutunu çalıştırarak program dosyasına çalıştırma izni tanımlayın.
 
-4) Son olarak **Uçbirim Öykünücüsü**nde `./dosyaadi.run` diyerek programın kurulum işlemini başlatın.
+4) Son olarak **Uçbirim Öykünücüsü**nde `sudo ./dosyaadi.run` diyerek programın kurulum işlemini başlatın.
 
 **Bilgi** dosyaadi.run kısmını indirdiğiniz programın adı ve uzantısıyla güncellemeniz gerekmektedir. XAMPP dosya adı güncel sürüm numarasını barındırdığından dinamiktir, bu nedenle sizin rehberliğinize ihtiyaç duyulmaktadır.
 
@@ -44,7 +44,7 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
     </policyconfig>
 
 
-2) **Uçbirim Öykünücüsü**nü açıp `sudo mousepad /usr/share/applications/xampp-control-panel.desktop` komutunu çalıştırın, karşınıza gelen mousepad penceresinin içine aşağıdaki kodları yapıştırarak kaydedin ve editörü kapatın
+2) **Uçbirim Öykünücüsü**nü açıp `sudo mousepad /usr/share/applications/xampp-control-panel.desktop` komutunu çalıştırın, karşınıza gelen mousepad penceresinin içine aşağıdaki kodları yapıştırarak kaydedin ve editörü kapatın.
 
 ##### xampp-control-panel.desktop
 
@@ -60,3 +60,7 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
     Terminal=false
 
 Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
+
+### PHP'nin Uçbirim Öykünücüsünde çalışabilmesi nasıl sağlanır ?
+
+**Uçbirim Öykünücüsü**nü açıp `sudo ln -s /opt/lampp/bin/php /usr/bin/php` komutunu çalıştırın, ardından `php -v` komutunu çalıştırarak PHP sürümünü görüntüleyerek PHP'nin sisteme tanımlandığını doğrulayın.
