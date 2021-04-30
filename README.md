@@ -69,6 +69,6 @@ Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
 
 ---
 
-## Composer'ın Uçbirim Öykünücüsünde çalışabilmesi nasıl sağlanır ?
+### Composer'ın Uçbirim Öykünücüsünde çalışabilmesi nasıl sağlanır ?
 
 **Uçbirim Öykünücüsünü**nü açıp `sudo wget -O composer-setup.php https://getcomposer.org/installer && sudo  php ./composer-setup.php --install-dir=/usr/local/bin --filename=composer` komutunu çalıştırın, ardından `composer` komutunu çalıştırarak Composer'ın komutlarını görüntüleyerek Composer'ın sisteme tanımlandığını doğrulayın.
