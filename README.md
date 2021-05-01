@@ -74,7 +74,7 @@ Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
 **Uçbirim Öykünücüsünü**nü açıp `sudo wget -O composer-setup.php https://getcomposer.org/installer && sudo  php ./composer-setup.php --install-dir=/usr/local/bin --filename=composer` komutunu çalıştırın, ardından `composer` komutunu çalıştırarak Composer'ın sisteme tanımlandığını doğrulayın.
 
 ### Lisans
-Bu dizinde bulunan yönerge ve dosyalar GPL3 lisansı altında paylaşılmıştır.
+Bu dizinde bulunan yönerge ve dosyalar **GPL3** lisansı altında paylaşılmıştır.
 
 > Copyright (C) 2021, Ali Yılmaz and contributors 
 > 
