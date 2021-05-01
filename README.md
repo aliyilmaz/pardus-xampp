@@ -72,3 +72,22 @@ Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
 ### Composer'ın Uçbirim Öykünücüsünde çalışabilmesi nasıl sağlanır ?
 
 **Uçbirim Öykünücüsünü**nü açıp `sudo wget -O composer-setup.php https://getcomposer.org/installer && sudo  php ./composer-setup.php --install-dir=/usr/local/bin --filename=composer` komutunu çalıştırın, ardından `composer` komutunu çalıştırarak Composer'ın sisteme tanımlandığını doğrulayın.
+
+### Lisans
+
+Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı amaçlayan Bitnami XAMPP uygulamasının Pardus işletim sistemine kurulumunu konu almaktadır.
+
+Copyright (C) 2021,  Ali Yılmaz, and contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
