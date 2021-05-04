@@ -73,6 +73,14 @@ Ayrıca `src` dizininde örnek dosyalar sunulmuştur.
 
 **Uçbirim Öykünücüsünü**nü açıp `sudo wget -O composer-setup.php https://getcomposer.org/installer && sudo  php ./composer-setup.php --install-dir=/usr/local/bin --filename=composer` komutunu çalıştırın, ardından `composer` komutunu çalıştırarak Composer'ın sisteme tanımlandığını doğrulayın.
 
+---
+
+### PHP dosyalarının barınacağı dizin nasıl kullanılır ?
+
+PHP dosyaları, `/opt/lampp/htdocs` yolunda tutulur. Dosyaları bu yola kopyalamadan önce, bu dizine izin vermek gerekir. İzni vermek için **Uçbirim öykünücüsü**nü açıp, `sudo chmod -R 0777 /opt/lampp/htdocs` komutunu çalıştırın, ardından `htdocs` klasörü içinde bir dosya ya da klasör oluşturmayı deneyerek iznin verildiğini doğrulayın.
+
+---
+
 ### Lisans
 Bu dizinde bulunan yönerge ve dosyalar **GPL3** lisansı altında paylaşılmıştır.
 
