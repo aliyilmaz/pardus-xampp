@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+clean:
+	true
+
+build:
+	true
+
+binary:
+	make install DESRDIR=$PWD/debian/package

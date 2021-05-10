@@ -1,0 +1,11 @@
+Source: pardus-xampp
+Section: devel
+Priority: optional
+Maintainer: kurth4cker <kurth4cker@tutanota.com>
+Build-Depends: debhelper (>=10)
+Standards-Version: 4.0.0
+Homepage: https://github.com/aliyilmaz/pardus-xampp
+
+Package: pardus-xampp
+Architecture: all
+Description: Pardus xampp setup package.
