@@ -18,6 +18,7 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
 
 2) **Uçbirim Öykünücüsü**ndeyken `sudo sh uninstall.sh` komutunu çalıştırarak kaldırma işlemini başlatın, ayarlarıyla birlikte tüm kurulum dosyaları kaldırılacaktır.
 
+---
 
 ## Başka bir yöntemle Kurmak / Kaldırmak için:
 
