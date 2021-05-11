@@ -1,5 +1,5 @@
 #!/bin/bash
-# pardus-xampp - unistall
+# pardus-xampp - uninstall
 rm -R /opt/lampp
 rm -R /usr/share/polkit-1/actions/xampp.policy
 rm -R /usr/share/applications/xampp-control-panel.desktop
