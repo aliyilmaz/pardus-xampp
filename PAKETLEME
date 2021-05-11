@@ -1,0 +1,4 @@
+Debian paketi oluşturmak için temel olarak
+
+ - dpkg-deb paketini kurun.
+ - 'dpkg-buildpackage' komutunu çalıştırın.

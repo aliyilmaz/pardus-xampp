@@ -1,10 +1,16 @@
 #!/usr/bin/make -f
 
-clean:
+SHELL = /bin/bash
+PWD = `pwd`
+
+setup:
 	true
+
+clean:
+	rm -rf $(PWD)/debian/package
 
 build:
-	true
+	make
 
-binary:
-	make install DESRDIR=$PWD/debian/package
+binary: Makefile #/usr/share/applications/xampp-control-panel.desktop
+	make install DESTDIR=$(PWD)/debian/package

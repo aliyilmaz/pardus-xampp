@@ -5,6 +5,7 @@ RENAMED_RUN_FILE = xampp-installer.run
 all: src/xampp-control-panel.desktop src/xampp.policy setup
 
 setup:
+	true
 	if ! test -f ; then
 	wget $(RUN_URL) || curl -O $(RUN_URL)
 	mv $(RUN_FILE) $(RENAMED_RUN_FILE)
