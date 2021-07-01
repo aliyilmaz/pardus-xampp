@@ -32,10 +32,6 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
 
 4) Son olarak **Uçbirim Öykünücüsü**nde `sudo ./xampp-linux-x64-8.0.7-0-installer.run` diyerek programın kurulum işlemini başlatın.
 
-**Bilgi** dosyaadi.run kısmını indirdiğiniz programın adı ve uzantısıyla güncellemeniz gerekmektedir. XAMPP dosya adı güncel sürüm numarasını barındırdığından dinamiktir, bu nedenle sizin rehberliğinize ihtiyaç duyulmaktadır.
-
-
-
 
 ### XAMPP çalıştırma simgesi nasıl oluşturulur?
 
