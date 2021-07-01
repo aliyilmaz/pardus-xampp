@@ -2,7 +2,7 @@
 
 Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı amaçlayan Bitnami XAMPP uygulamasının, composer ve php komutlarının Pardus işletim sistemine kurulumunu konu almaktadır.
 
-## Pardus'a Bitnami XAMPP nasıl kurulur?
+## Pardus'a Bitnami XAMPP nasıl Kurulur ve Kaldırılır ?
 
 ### Kurulum
 
@@ -20,7 +20,7 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
 
 ---
 
-## Başka bir yöntemle Kurmak / Kaldırmak için:
+## Pardus'a Bitnami XAMPP başka bir yöntemle nasıl Kurulur ve Kaldırılır ?
 
 ### Kurulum
 
@@ -28,9 +28,9 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
 
 2) **Uçbirim Öykünücüsü**nü açıp programın indirildiği dizine `cd` komutu yardımıyla ulaşın.
 
-3) Ardından **Uçbirim Öykünücüsü**nde `sudo chmod +x ./dosyaadi.run` komutunu çalıştırarak program dosyasına çalıştırma izni tanımlayın.
+3) Ardından **Uçbirim Öykünücüsü**nde `sudo chmod +x ./xampp-linux-x64-8.0.7-0-installer.run` komutunu çalıştırarak program dosyasına çalıştırma izni tanımlayın.
 
-4) Son olarak **Uçbirim Öykünücüsü**nde `sudo ./dosyaadi.run` diyerek programın kurulum işlemini başlatın.
+4) Son olarak **Uçbirim Öykünücüsü**nde `sudo ./xampp-linux-x64-8.0.7-0-installer.run` diyerek programın kurulum işlemini başlatın.
 
 **Bilgi** dosyaadi.run kısmını indirdiğiniz programın adı ve uzantısıyla güncellemeniz gerekmektedir. XAMPP dosya adı güncel sürüm numarasını barındırdığından dinamiktir, bu nedenle sizin rehberliğinize ihtiyaç duyulmaktadır.
 
