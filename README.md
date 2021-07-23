@@ -28,9 +28,9 @@ Bu döküman PHP, MYSQL gibi web programlama gereksinimlerini karşılamayı ama
 
 2) **Uçbirim Öykünücüsü**nü açıp programın indirildiği dizine `cd` komutu yardımıyla ulaşın.
 
-3) Ardından **Uçbirim Öykünücüsü**nde `sudo chmod +x ./xampp-linux-x64-8.0.7-0-installer.run` komutunu çalıştırarak program dosyasına çalıştırma izni tanımlayın.
+3) Ardından **Uçbirim Öykünücüsü**nde `sudo chmod +x ./xampp-linux-x64-8.0.8-0-installer.run` komutunu çalıştırarak program dosyasına çalıştırma izni tanımlayın.
 
-4) Son olarak **Uçbirim Öykünücüsü**nde `sudo ./xampp-linux-x64-8.0.7-0-installer.run` diyerek programın kurulum işlemini başlatın.
+4) Son olarak **Uçbirim Öykünücüsü**nde `sudo ./xampp-linux-x64-8.0.8-0-installer.run` diyerek programın kurulum işlemini başlatın.
 
 
 ### XAMPP çalıştırma simgesi nasıl oluşturulur?
